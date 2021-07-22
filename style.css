@@ -34,15 +34,16 @@ body{
 }
 
 .phone img{
-    height: 51rem;
-    margin-right: 50px;
+    
+    margin-right: 40px;
+    width: 25vw;
 }
 .continue{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 21vw;
+    width: 30vw;
     min-height: 34rem;
     
 }
@@ -59,7 +60,7 @@ body{
     background-color: white;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 2px solid rgb(235, 234, 234);
     margin-bottom: 10px ;
 
 }
@@ -128,10 +129,10 @@ body{
 }
 
 .app-download:nth-child(1){
-    background-image: url(fotos/store.p.png);
+    background-image: url(fotos/store.png);
 }
 .app-download:nth-child(2){
-    background-image: url(fotos/store.png);
+    background-image: url(fotos/store.p.png);
 }
 
 @media (max-width: 1024px){
